@@ -1,0 +1,80 @@
+body{
+    font-family: 'Roboto Condensed', sans-serif, monospace;
+    background-color: lightsteelblue;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 90%;
+    text-align: center;
+    border: 2px solid steelblue;
+}
+td, th{
+    border-bottom: 2px solid steelblue;
+    border-top: 2px solid steelblue;
+    padding: 10px;
+}
+#tigerPic{
+    width: 150px;
+}
+#csDept{
+    background-color: #b0d2de;
+}
+#mathDept{
+    background-color: #deb4b0;
+}
+#physicsDept{
+    background-color: #b4b0de;
+}
+#eceDept{
+    background-color: #ded9b0;
+}
+#card{
+    border: 5px solid steelblue;
+    box-shadow: 5px 7px 10px dimgray;
+    width: 60%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    content: "";
+    display: table;
+    clear: both;
+}
+#columnOne{
+    width: 30%;
+    display: inline-block;
+}
+#myPic{
+    border: 3px solid darkcyan;
+    margin: 10px;
+    margin-left: 5px;
+    width: 90%;
+}
+#columnTwo{
+    width: 30%;
+    display: inline-block;
+    padding-right: 10px;
+}
+.cardAbout{
+    margin: 0;
+}
+#cardName{
+    margin-bottom: 0;
+}
+#columnThree{
+    width: 40%;
+    display: inline-block;
+    padding-right: 10px;
+}
+#cardContact{
+    margin-bottom: 0;
+}
+hr{
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+.column{
+    float: left;
+    word-wrap: break-word;
+}
