@@ -1,0 +1,87 @@
+body{
+    /* I got this image from https://unsplash.com/wallpapers/nature/space */
+    background-image: url('images/space.jpeg');
+}
+#title{
+    margin-top: 5vh;
+    color: aliceblue;
+    text-align: center;
+    margin-bottom: 15vh;
+}
+
+#pictureSelect{
+    background-color: lightcoral;
+    text-align: center;
+    width: 20%;
+    float: left;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+#pictureSelect * {
+    margin-bottom: 5%;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#info{
+    background-color: aquamarine;
+    text-align: center;
+    width: 20%;
+    float: left;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+#middle{
+    min-height: 60vh;
+    width: 30%;
+    float: left;
+    overflow: hidden;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+img{
+    width: 100%;
+}
+
+#imageDiv{
+    width: 100%;
+    min-height: 50vh;
+}
+
+#wrapper{
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    content: "";
+    display: table;
+    clear: both;
+    margin-bottom: 5vh;
+}
+
+#arrowDiv{
+    overflow: scroll;
+    display: flex;
+    justify-content: space-between;
+}
+
+.arrow{
+    font-size: 100px;
+    color: aliceblue;
+    display: inline-block;
+}
+
+#leftArrow{
+    text-align: left;
+}
+#rightArrow{
+    text-align: right;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
